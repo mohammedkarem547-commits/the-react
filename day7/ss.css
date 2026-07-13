@@ -1,0 +1,77 @@
+*{
+    background-color: rgb(180, 206, 228) ;
+    /* !important; */
+}
+p{
+    color: rgba(106, 1, 59, 0.599);
+}
+.contact{
+    background-color: rgb(73, 167, 135) !important;
+    
+}
+#name{
+    text-align: center; 
+    background-color: rgb(20, 101, 129);
+}
+h1 , ol , a , ul , li , .pp {
+    background-color: rgba(18, 126, 124, 0.475);
+}
+.pp{
+    color: rgba(212, 36, 36, 0.69);
+}
+.pp:hover{
+background-color: aqua;
+color: black;
+}
+:root{
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --text-color: #333;
+}
+.rroot{
+    color: var(--primary-color);
+}
+.Lroot{
+--secondary-color: #2ecc71;
+background-color: var(--secondary-color);
+}
+.clickable {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+    cursor: pointer;
+}
+.disabled {
+    background-color: #6c757d;
+    color: #e0e0e0;
+    padding: 10px 20px;
+    border-radius: 5px;    
+    cursor: not-allowed;
+}
+
+.help-text {
+    display: inline-block;
+    color: #333;
+    border-radius: 5px;    
+    padding: 10px;
+    cursor: help;
+}
+.img{
+    width: 50%;
+    height: 50%;
+    max-width: auto;
+
+}
+.over{
+    width: 700px;
+    height: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+    background-image:url(WhatsApp\ Image\ 2026-07-06\ at\ 8.58.17\ AM.jpeg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+}
