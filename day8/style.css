@@ -1,0 +1,65 @@
+.container{
+   
+    background-color: rgba(45, 28, 105, 0.405);
+    padding: 80px;
+    margin: 80px;
+    border: 5px rgb(1, 235, 196) solid;
+}
+
+    
+h1 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700; 
+  font-style: normal;
+  font-size: 60px;
+  text-align: center;
+}
+h2{
+  font-family: "Black Ops One", system-ui;
+  font-weight: 900;
+  font-style: normal;
+  margin-left: 48px;
+
+}
+.img{
+    border-radius: 50%;
+    width: 20%;
+    height: 400px;
+}
+.p1{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size:50px;
+}
+.p2{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+}
+.contact{
+    border: black solid 2px;
+    font-size: 20px;
+    color: rgb(255, 247, 247);
+    background-color: rgb(15, 42, 15);
+    padding: 3px;
+}
+.contact:hover{
+    border: black solid 2px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+}
+.p3{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  background-color: rgba(128, 128, 128, 0.348);
+}
