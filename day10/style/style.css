@@ -1,0 +1,47 @@
+.container{
+    background-color: rgba(191, 248, 248, 0.296);
+}
+a{
+    background-color: rgba(66, 69, 98, 0.566);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.navv{
+    background-color: rgba(193, 92, 92, 0.395);
+}
+.mas{
+opacity: 0;
+transform: rotate(0deg );
+transition: opacity 1s cubic-bezier(.01,.88,.77,.69), 
+background-color 1s cubic-bezier(.01,.88,.77,.69),
+transform 0.6s cubic-bezier(.01,.88,.77,.69);
+overflow: hidden;
+color: aliceblue;
+}
+.mas:hover{
+    opacity: 1;
+    background-color: rgba(26, 167, 99, 0.278);
+    transform: rotate(360deg);
+
+}
+.hh{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.name{
+  font-family: "Jacques Francois Shadow", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: cadetblue;
+  font-size: 30px;
+}
+.content{
+  font-size: 20px;
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+nav img{
+border-radius: 50%;
+width: 55px;
+}
