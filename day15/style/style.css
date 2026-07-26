@@ -30,6 +30,9 @@ img{
 .hh{
   font-weight: bold;
 }
+.navv{
+  background-color: rgba(95, 158, 160, 0.392);
+}
 /* ________________________ */
 .loader {
   --color-1: #fff;
