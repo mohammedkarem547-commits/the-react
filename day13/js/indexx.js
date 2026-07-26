@@ -16,10 +16,10 @@ const submit = document.querySelector("#submit");
         else {
             alert(`done`)
         }
-    }
+    
     console.log(`name:` + nameValue);
     console.log(`age:` + ageValue);
     console.log(`jop:` + jopValue);
-    
+    }
 
 });
