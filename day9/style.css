@@ -1,0 +1,85 @@
+.parent{
+    width: 90%;
+    height: 450px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScrSuFKQAxuGEjSZjCehvl51maSMqvGq37nLHmZzqaoA&s=10);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: 5%;
+}
+.child{
+    padding: 20px;
+    background-color: rgba(186, 9, 9, 0.17);
+    width: 70%; 
+    height: 350px;
+    position: absolute;
+    top: 50px;
+    left: 15%;
+    color: rgb(0, 0, 0);
+}
+.child p{
+    padding-top: 20px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+.child h1{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  margin-top: 20px;
+}
+.child nav a {
+    background-color: rgba(37, 87, 131, 0.488);
+    color: black;
+    border-radius: 30%;
+    background-size: 20px;
+    padding: 10px;
+}
+.navbar{
+    position: relative;
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    background-color: rgba(26, 19, 67, 0.4);
+    height:50px;
+}
+.navlinks{
+    position: absolute;
+    top: 50%;
+    right: 50px;
+}
+.navlinks a {
+  text-decoration: none;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin-left: 25px;
+  }
+.navbar .logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.child2{
+    display: block;
+    margin: 30px;
+}
+.item img {
+    width: 300px;
+}

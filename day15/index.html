@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NZ+Guides&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Restaurant App</title>
+</head>
+<body>
+
+    <div class="elcontainer p-3">
+        <div class="parent">
+            <div class="navv">
+                <nav class="d-flex justify-content-end align-items-center gap-4 p-2">
+                    <div class="justify-content-start d-flex me-auto">
+                        <i class="mt-4 fa-solid fa-utensils fa-beat-fade fa-xl" style="color: rgb(0, 0, 0);"></i>
+                        <img src="img/WhatsApp Image 2026-07-18 at 9.59.10 PM.jpeg" class="myimg" alt="Manager">
+                        <p class="content m-2"> Manager : <span class="text-danger">M.</span> KAREM</p>
+                    </div>
+                    <a href="#" class="p-1 text-decoration-none">home</a>
+                    <a href="#" class="p-1 text-decoration-none">about</a>
+                    <a href="#" class="p-1 text-decoration-none">contact</a>
+                    <a href="#" class="p-1 text-decoration-none">share</a>
+                </nav>
+            </div>
+
+            <h1 class="hh text-center">my page</h1>
+            <p class="content">
+                <span class="name p-1 text-capitalize text-danger border-bottom border-danger">__ mohamed karem restaurant.!</span> 
+                <br><br>
+                My name is M Karem, and I own a restaurant in Cairo.<br>
+                We have all your favorite dishes!
+            </p>
+
+            <div class="child text-center mb-4">
+                <p class="opacity-25 mb-1">welcome in my restaurant</p>
+                <p class="opacity-25 mb-3">our menu</p>
+                <input type="search" id="searchinput" list="mealsList" class="form-floating border border-2 w-50 text-center mx-auto form-control" placeholder="enter your meal name">
+
+                <datalist id="mealsList">
+                    <option value="carrot"></option>
+                    <option value="broccoli"></option>
+                    <option value="asparagus"></option>
+                    <option value="cauliflower"></option>
+                    <option value="corn"></option>
+                    <option value="cucumber"></option>
+                    <option value="green pepper"></option>
+                    <option value="lettuce"></option>
+                    <option value="mushrooms"></option>
+                    <option value="onion"></option>
+                    <option value="potato"></option>
+                    <option value="pumpkin"></option>
+                    <option value="red pepper"></option>
+                    <option value="tomato"></option>
+                    <option value="beetroot"></option>
+                    <option value="brussel sprouts"></option>
+                    <option value="peas"></option>
+                    <option value="zucchini"></option>
+                    <option value="radish"></option>
+                    <option value="sweet potato"></option>
+                    <option value="artichoke"></option>
+                    <option value="leek"></option>
+                    <option value="cabbage"></option>
+                    <option value="celery"></option>
+                    <option value="chili"></option>
+                    <option value="pasta"></option>
+                    <option value="pizza"></option>
+                </datalist>
+            </div>
+        </div>
+
+        <div class="container p-5 border border-2">
+            <div class="row g-4 justify-content-center" id="recipesRow">
+            </div>
+        </div>
+
+        <div>
+            <form class="mt-5">
+                <fieldset class="border border-2 p-4 bg-white mt-3">
+                    <legend class="text-capitalize px-2 float-none fw-bold text-danger">Fill This Form</legend> 
+                    
+                    <div class="mb-3">
+                        <label for="name" class="form-label fw-bold">Enter your name:</label>
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Mohamed Karem">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="tel" class="form-label fw-bold">Enter your phone:</label>
+                        <input type="tel" id="tel" name="tel" class="form-control" placeholder="your phone">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="email" class="form-label fw-bold">Enter your email:</label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="your email">
+                    </div>
+                    <button type="submit" class="btn btn-danger w-100 py-2 fw-bold text-uppercase shadow-sm">Done</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
